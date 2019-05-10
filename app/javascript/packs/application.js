@@ -14,5 +14,20 @@
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+import './mixpanel.js';
 
 // console.log('Hello World from Webpacker')
+
+
+
+
+// const reloadComponents = () => {
+//   Rails.start();
+//   Turbolinks.start();
+// };
+//
+// $(document).on('turbolinks:load', () => {
+//   reloadComponents();
+// });
+//
+// window.reloadComponents = reloadComponents;
